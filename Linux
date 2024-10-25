@@ -1,0 +1,30 @@
+cat > Pets.txt
+Dog  
+Cat  
+Hamster  
+
+cat > PackAnimals.txt
+Horse  
+Camel  
+Donkey  
+
+cat Pets.txt PackAnimals.txt > Combined.txt
+cat Combined.txt
+
+mv Combined.txt HumanFriends.txt
+ls
+
+mkdir Friends
+
+mv HumanFriends.txt Friends/
+ls Friends
+
+sudo apt update
+sudo apt install mysql-server
+sudo systemctl start mysql
+sudo systemctl status mysql
+
+sudo apt install htop
+sudo dpkg -r htop
+
+history
